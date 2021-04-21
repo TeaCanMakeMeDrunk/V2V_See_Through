@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">V2V_TEST</string>
+    <string name="dash">-</string>
+    <string name="actionSave">Save line chart</string>
+    <string name="velocitySave">Save velocity</string>
+    <string name="title_activity_time_syn">TimeSynActivity</string>
+    <string name="waitVideo">Wait Video Stream...</string>
+</resources>

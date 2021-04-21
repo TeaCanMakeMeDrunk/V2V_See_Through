@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LocationSendActivity">
+
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="271dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="271dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/senderSpeed"
+        android:layout_width="141dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/sendCamera"
+        android:layout_width="96dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/expectanim_roundrect1"
+        android:gravity="center"
+        android:onClick="takePictureOnclick"
+        android:paddingLeft="20dp"
+        android:paddingTop="12dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="12dp"
+        android:text="Send"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="584dp"
+        android:layout_height="149dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="595dp" />
+
+
+</LinearLayout>
