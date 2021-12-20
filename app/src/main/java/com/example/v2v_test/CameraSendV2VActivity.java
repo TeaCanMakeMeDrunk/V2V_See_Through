@@ -122,7 +122,7 @@ public class CameraSendV2VActivity extends AppCompatActivity{
         handlerThread.start();
         mHandler = new Handler(handlerThread.getLooper());
         mCameraId = "" + CameraCharacteristics.LENS_FACING_FRONT;//"0"打开后置摄像头
-        mImageReader = ImageReader.newInstance(mSurfaceView.getWidth(), mSurfaceView.getHeight(), ImageFormat.YUV_420_888, 1);
+        mImageReader = ImageReader.newInstance(mSurfaceView.getWidth(), mSurfaceView.getHeight(), ImageFormat.JPEG, 1);
         mImageReader.setOnImageAvailableListener(new ImageReader.OnImageAvailableListener() {
             @Override
             public void onImageAvailable(ImageReader reader) {
